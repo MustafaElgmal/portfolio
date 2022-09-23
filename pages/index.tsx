@@ -47,7 +47,6 @@ export const getStaticProps: GetStaticProps = async (context) => {
   if (!config.apiKey) {
     return { props: { error: 'NOKEYS' } }
   }
-
   try {
     const page = await fetchPage('home', config.apiKey, context.locale)
     return { props: { page } }
