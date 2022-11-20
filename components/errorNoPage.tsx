@@ -11,4 +11,5 @@ const ErrorNoPage = () => {
   )
 }
 
+
 export default ErrorNoPage
