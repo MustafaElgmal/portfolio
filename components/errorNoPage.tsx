@@ -10,7 +10,4 @@ const ErrorNoPage = () => {
     </div>
   )
 }
-
-
-
 export default ErrorNoPage
